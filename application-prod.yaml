@@ -1,0 +1,4 @@
+my:
+  greeting: Hello World of PROD!!
+  list:
+    values: One, Two, Three
