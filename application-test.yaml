@@ -1,4 +1,7 @@
-my:
-  greeting: Hello World of test!!
-  list:
-    values: One, Two, Three
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ankur512512/spring-config-properties.git
+          timeout: 10
